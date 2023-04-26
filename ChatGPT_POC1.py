@@ -25,7 +25,7 @@ def query_power_bi_data(api_url = "https://api.powerbi.com/v1.0/myorg/groups/032
 
 ###############################################ChatBot Using OpenAI##################################################################
 #Chatbot using OpenAI
-openai.api_key = "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"
+openai.api_key = "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"
 
 def chat_with_openai(prompt, model="text-davinci-003"):
     response = openai.Completion.create(
